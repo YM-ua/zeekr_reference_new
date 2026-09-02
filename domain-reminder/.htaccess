@@ -1,0 +1,12 @@
+<Files "config.php">
+    Require all denied
+</Files>
+
+<Files "bootstrap.php">
+    Require all denied
+</Files>
+
+# Запрет индексирования
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
