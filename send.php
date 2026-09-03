@@ -7,9 +7,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-$to          = 'obmensumyua@gmail.com';
-$tg_token    = '5378318992:AAEjYRWm-XsSnx97aC46QPaUYJAiFp0n5rU';
-$tg_chat_id  = '876748937';
+$to          = 'o........@gmail.com';
+$tg_token    = '........';
+$tg_chat_id  = '......';
 
 $name = isset($_POST['name']) ? htmlspecialchars(trim($_POST['name'])) : '';
 
