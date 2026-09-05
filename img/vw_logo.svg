@@ -9,9 +9,9 @@
       <feGaussianBlur stdDeviation="2"/>
     </filter>
   </defs>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#6FA8C9" stroke-width="3.2" filter="url(#halo)"/>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#6FA8C9" stroke-width="2.2"/>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#BDEFFF" stroke-width="0.8" opacity="0.9"/>
-  <text x="48" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="1">ID</text>
-  <text x="88" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="9" fill="#FFFFFF" textLength="96" lengthAdjust="spacingAndGlyphs">PROGRAMMING</text>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#D64541" stroke-width="3.2" filter="url(#halo)"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#D64541" stroke-width="2.2"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#F2A19B" stroke-width="0.8" opacity="0.9"/>
+  <text x="48" y="37" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="50" fill="#FFFFFF" letter-spacing="1">ID</text>
+  <text x="108" y="11" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="9" fill="#FFFFFF" textLength="77" lengthAdjust="spacingAndGlyphs">PROGRAMMING</text>
 </svg>

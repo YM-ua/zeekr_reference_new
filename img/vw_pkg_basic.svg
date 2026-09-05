@@ -2,20 +2,20 @@
   <rect width="800" height="600" fill="#F6F8FA"/>
   <rect x="12" y="12" width="776" height="576" rx="28" fill="none" stroke="#6FA8C9" stroke-width="4"/>
   <defs>
-    <g id="p-diag" stroke="#274B66" fill="none" stroke-linecap="round">
+    <g id="p-diag" stroke="#D64541" fill="none" stroke-linecap="round">
       <path d="M -44,30 A 52,52 0 1 1 44,30" stroke-width="11"/>
       <path d="M 0,-38 L 0,-50 M -27,-27 L -35,-35 M 27,-27 L 35,-35 M -38,0 L -50,0 M 38,0 L 50,0" stroke-width="9"/>
       <path d="M 0,8 L 28,-26" stroke-width="11"/>
-      <circle cx="0" cy="8" r="9" fill="#274B66" stroke="none"/>
+      <circle cx="0" cy="8" r="9" fill="#D64541" stroke="none"/>
     </g>
-    <g id="p-car" stroke="#274B66" fill="none" stroke-linecap="round">
+    <g id="p-car" stroke="#D64541" fill="none" stroke-linecap="round">
       <rect x="-52" y="-46" width="54" height="92" rx="12" stroke-width="10"/>
-      <circle cx="-25" cy="30" r="5.5" fill="#274B66" stroke="none"/>
+      <circle cx="-25" cy="30" r="5.5" fill="#D64541" stroke="none"/>
       <path d="M 16,-36 A 10,10 0 0 0 6,-46" stroke-width="9"/>
       <path d="M 26,-36 A 20,20 0 0 0 6,-56" stroke-width="9"/>
       <path d="M 36,-36 A 30,30 0 0 0 6,-66" stroke-width="9"/>
     </g>
-    <g id="p-gear" fill="#274B66">
+    <g id="p-gear" fill="#D64541">
       <rect x="-11" y="-50" width="22" height="18" rx="5"/>
       <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(45)"/>
       <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(90)"/>
