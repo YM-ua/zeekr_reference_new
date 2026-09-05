@@ -70,3 +70,15 @@ h1.title { font-size: 64px; }
   .two-inner { border: 1px solid #E1E8EF; }
   .two-row { border-color: #E1E8EF; }
 }
+.check::before { color: #D64541; }
+/* ===== КРАСНЫЙ АКЦЕНТ ===== */
+/* кнопка «Записатися» в шапке и футере */
+.header-btn { background: #D64541; border: 1px solid #D64541; color: #fff !important; }
+.header-btn:hover { background: transparent; border-color: #D64541; color: #D64541 !important; }
+
+/* кнопки «Відправити» в обеих формах */
+.ten-form-sub input { background: #D64541; }
+
+/* выделение последнего пакета */
+.highlight { border: 2px solid #D64541; }
+.highlight::before { background: #D64541; }
