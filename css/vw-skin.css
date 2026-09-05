@@ -154,3 +154,18 @@ h1.title { font-size: 64px; }
     .two-inner { border: 1px solid #DCE7F5; }
     .two-row { border-color: #DCE7F5; }
 }
+/* ===== СПОКОЙНЫЙ РЕЖИМ ===== */
+/* светящаяся линия под шапкой — тусклее */
+.header::after { opacity: .45; }
+
+/* акцент в заголовке — сплошной цвет вместо градиента */
+.red { background: #6FA8C9; }
+
+/* кнопки отправки — сплошной тёмный вместо градиента */
+.ten-form-sub input { background: #274B66; }
+
+/* легче ритм: вторая сервисная секция — светлая, а не тёмная */
+.seven { background: #F6F8FA; }
+.seven .title { color: #22303F; }
+.seven .six-slogan { color: #46586E; }
+.seven .six-text { color: #46586E; }
