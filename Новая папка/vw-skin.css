@@ -1,0 +1,172 @@
+/* ============================================================
+   VW ELECTRIC SKIN — светлая фирменная тема для страницы VW ID
+   Подключается ПОСЛЕ main.css и переопределяет её.
+   Палитра: navy #001E50 | электрик #00B5E8 | фон #F4F7FB
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #F4F7FB;
+}
+
+/* ---------- Loader ---------- */
+.loader { background: #001E50; }
+.loader-block-item { background: #00B5E8; }
+
+/* ---------- Типографика ---------- */
+.title, h1.title { color: #0B1F3A; text-transform: none; letter-spacing: -0.5px; }
+h1.title { font-size: 64px; }
+.slogan { color: #46586E; }
+
+.red {
+    background: linear-gradient(90deg, #001E50, #00B5E8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ---------- Шапка: navy + светящаяся ID-линия ---------- */
+.header {
+    background: #001E50;
+    border-bottom: none;
+}
+.header::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: -2px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00B5E8 25%, #7FE3FF 50%, #00B5E8 75%, transparent);
+}
+.header.active { background: rgba(0, 30, 80, 0.95); }
+.mob-menu { background: #001E50; }
+.menu-item.active:after { background: #00B5E8; }
+
+/* Кнопка-пилюля */
+.header-btn {
+    background: #00B5E8;
+    border: 1px solid #00B5E8;
+    border-radius: 999px;
+    color: #001E50 !important;
+}
+.header-btn:hover {
+    background: transparent;
+    border-color: #00B5E8;
+    color: #00B5E8 !important;
+}
+.bars { background: #fff; }
+.bars.active { background: #00B5E8; }
+
+/* ---------- Hero ---------- */
+.one { background: linear-gradient(180deg, #001E50 0%, #0A2B66 100%); }
+.one .title { color: #FFFFFF; }
+.one .slogan { color: #C9DCF5; }
+.one-inner-text { color: #FFFFFF; }
+/* плашки моделей: стеклянные пилюли вместо рамки border.svg */
+.one-onner {
+    background-image: none;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(0, 181, 232, 0.45);
+    border-radius: 999px;
+}
+
+/* ---------- Светлые секции ---------- */
+.two, .four, .eight, .ten { background: #FFFFFF; }
+.two-inner { color: #22303F; border-left: 1px solid #DCE7F5; }
+.two-inner:hover { background: #001E50; color: #fff; }
+.two-inner-header-icon { background: #E3EEF9; border-radius: 16px; }
+.two-inner-header-icon.active { background: #00B5E8; }
+.two-row-line.first, .two-row-line.second,
+.two-row-line.third, .two-row-line.fourth { background: #DCE7F5; }
+
+/* ---------- Синие сервисные секции (вместо оранжевых/чёрных) ---------- */
+.six { background: #001E50; }
+.seven { background: #0A2B66; }
+.six .title, .seven .title { color: #fff; }
+.six-slogan { color: #7FE3FF; }
+.six-text { color: #C9DCF5; }
+
+/* ---------- Пакеты ---------- */
+.five { background: #F4F7FB; }
+.five .title { color: #0B1F3A; }
+.five-inner-title { color: #001E50; }
+.five-inner-text { color: #46586E; }
+
+/* ---------- Цены ---------- */
+.price-card {
+    background: #fff;
+    border: 1px solid #DCE7F5;
+    border-radius: 16px;
+}
+.price-card:hover { background: #001E50; color: #fff; }
+.price-card h3 { color: #001E50; }
+.price-card:hover h3 { color: #fff; }
+.price-card li { border-bottom: 1px solid #E4EDF7; }
+.price-card:hover li { border-bottom-color: rgba(255,255,255,.2); }
+.check::before { color: #00B5E8; }
+.highlight { border: 2px solid #00B5E8; }
+.highlight::before {
+    background: linear-gradient(90deg, #001E50, #00B5E8);
+    border-radius: 999px;
+}
+
+/* ---------- Преимущества / FAQ ---------- */
+.two .title, .eight .title, .ten .title { color: #0B1F3A; }
+.nine { background: #0A2B66; }
+.nine .title { color: #fff; }
+.nine-inner { border: 1px solid rgba(127, 227, 255, 0.35); border-radius: 16px; }
+.nine-inner.active { border-color: #00B5E8; }
+.nine-inner-title, .nine-inner-text { color: #EAF4FF; }
+.nine-inner-btn { background: #00B5E8; border-radius: 12px; }
+
+/* ---------- Формы ---------- */
+.eleven { background: #001E50; }
+.eleven .title { color: #fff; }
+.ten-form-input input, textarea, .eleven-form-tell {
+    background: #fff;
+    border: 1px solid #C9D8EA;
+    border-radius: 12px;
+    color: #33475C;
+}
+.ten-form-sub input {
+    background: linear-gradient(90deg, #001E50, #00B5E8);
+    border-radius: 999px;
+    border: none;
+}
+.ten-form-policy, .ten-slogan, .ten-slogan .company-name,
+.ten-slogan .ten-address, .ten-link-text, .ten-form-slogan { color: #22303F; }
+
+/* ---------- Футер и модалка ---------- */
+.footer { background: #FFFFFF; }
+.footer .menu-link { color: #22303F !important; }
+.footer-bottom { border-top: 1px solid #DCE7F5; }
+.footer-bottom-link { color: #46586E !important; }
+.f-modal-content-close { background: #00B5E8; }
+
+/* ---------- Мобильные правки ---------- */
+@media screen and (max-width: 1220px) {
+    h1.title { font-size: 52px; }
+}
+@media screen and (max-width: 768px) {
+    h1.title { font-size: 38px; }
+    .two-inner { border: 1px solid #DCE7F5; }
+    .two-row { border-color: #DCE7F5; }
+}
+/* ===== СПОКОЙНЫЙ РЕЖИМ ===== */
+/* светящаяся линия под шапкой — тусклее */
+.header::after { opacity: .45; }
+
+.red {
+    background: none;
+    -webkit-text-fill-color: #6FA8C9;
+}
+
+/* кнопки отправки — сплошной тёмный вместо градиента */
+.ten-form-sub input { background: #274B66; }
+
+/* легче ритм: вторая сервисная секция — светлая, а не тёмная */
+.seven { background: #F6F8FA; }
+.seven .title { color: #22303F; }
+.seven .six-slogan { color: #46586E; }
+.seven .six-text { color: #46586E; }

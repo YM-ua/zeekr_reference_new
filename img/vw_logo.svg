@@ -1,25 +1,17 @@
 <svg width="187" height="38" viewBox="0 0 187 38" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <!-- Эмблема VW (контур) -->
     <g id="vw-emblem" fill="none" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="19" cy="19" r="17"/>
       <path d="M12.2 5.2 L19 23.6 L25.8 5.2"/>
       <path d="M4.6 13.8 L13.5 33.5 L19 23.6 L24.5 33.5 L33.4 13.8"/>
     </g>
-    <!-- Красное свечение, как у подсвеченного логотипа ID.4 -->
     <filter id="halo" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="2"/>
     </filter>
   </defs>
-
-  <!-- Эмблема: гало + основной контур + яркая сердцевина -->
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#ff1e00" stroke-width="3.2" filter="url(#halo)"/>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#ff2a00" stroke-width="2.2"/>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#ff7a5c" stroke-width="0.8" opacity="0.9"/>
-
-  <!-- VW ID (верхняя строка) -->
-  <text x="48" y="24" font-family="Arial, sans-serif" font-weight="900" font-size="24" fill="white" letter-spacing="6" textLength="124" lengthAdjust="spacingAndGlyphs">VW ID</text>
-
-  <!-- PROGRAMMING (нижняя строка, как в старом лого) -->
-  <text x="48" y="36" font-family="Arial, sans-serif" font-weight="900" font-size="9" fill="white" textLength="124.5" lengthAdjust="spacingAndGlyphs" style="letter-spacing: 0.5px;">PROGRAMMING</text>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#6FA8C9" stroke-width="3.2" filter="url(#halo)"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#6FA8C9" stroke-width="2.2"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#BDEFFF" stroke-width="0.8" opacity="0.9"/>
+  <text x="48" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" letter-spacing="1">ID</text>
+  <text x="88" y="29" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="9" fill="#FFFFFF" textLength="96" lengthAdjust="spacingAndGlyphs">PROGRAMMING</text>
 </svg>

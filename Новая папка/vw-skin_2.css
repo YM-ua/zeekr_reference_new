@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+body { font-family: 'Manrope', sans-serif; background: #F7F5F0; }
+.loader { background: #1C414C; }
+.loader-block-item { background: #55949E; }
+.title, h1.title { color: #2A3439; text-transform: none; letter-spacing: -0.5px; }
+h1.title { font-size: 64px; }
+.slogan { color: #5E6B6E; }
+.red { background: none; -webkit-text-fill-color: #55949E; }
+.header { background: #1C414C; border-bottom: none; }
+.header::after { content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 2px; opacity: .45; background: linear-gradient(90deg, transparent, #55949E 25%, #B7D6D9 50%, #55949E 75%, transparent); }
+.header.active { background: #26505B; }
+.mob-menu { background: #1C414C; }
+.menu-item.active:after { background: #55949E; }
+.header-btn { background: #55949E; border: 1px solid #55949E; border-radius: 999px; color: #1C414C !important; }
+.header-btn:hover { background: transparent; border-color: #55949E; color: #55949E !important; }
+.bars.active { background: #55949E; }
+.one { background: linear-gradient(180deg, #1C414C 0%, #26505B 100%); }
+.one .title { color: #fff; }
+.one .slogan { color: #D6E5E6; }
+.one-inner-text { color: #fff; }
+.one-onner { background-image: none; background: rgba(255,255,255,.08); border: 1px solid rgba(85,148,158,.45); border-radius: 999px; }
+.one-object-one, .one-object-two { display: none; }
+.two, .four, .eight, .ten { background: #fff; }
+.two-inner { color: #374346; border-left: 1px solid #E6E4DD; }
+.two-inner:hover { background: #1C414C; color: #fff; }
+.two-inner-header-icon { background: #EDEBE4; border-radius: 16px; }
+.two-inner-header-icon.active { background: #55949E; }
+.two-row-line.first, .two-row-line.second, .two-row-line.third, .two-row-line.fourth { background: #E6E4DD; }
+.six { background: #1C414C; }
+.seven { background: #F7F5F0; }
+.six .title { color: #fff; }
+.seven .title { color: #2A3439; }
+.six-slogan { color: #B7D6D9; }
+.seven .six-slogan { color: #5E6B6E; }
+.six-text { color: #D6E5E6; }
+.seven .six-text { color: #5E6B6E; }
+.five { background: #F7F5F0; }
+.five .title { color: #2A3439; }
+.five-inner-title { color: #1C414C; }
+.five-inner-text { color: #5E6B6E; }
+.price-card { background: #fff; border: 1px solid #E6E4DD; border-radius: 16px; }
+.price-card:hover { background: #1C414C; color: #fff; }
+.price-card h3 { color: #1C414C; }
+.price-card:hover h3 { color: #fff; }
+.price-card li { border-bottom: 1px solid #EAE8E1; }
+.check::before { color: #55949E; }
+.highlight { border: 2px solid #55949E; }
+.highlight::before { background: #55949E; border-radius: 999px; }
+.nine { background: #26505B; }
+.nine .title { color: #fff; }
+.nine-inner { border: 1px solid rgba(183,214,217,.35); border-radius: 16px; }
+.nine-inner.active { border-color: #55949E; }
+.nine-inner-title, .nine-inner-text { color: #E9F1F1; }
+.nine-inner-btn { background: #55949E; border-radius: 12px; }
+.eleven { background: #1C414C; }
+.eleven .title { color: #fff; }
+.ten-form-input input, textarea, .eleven-form-tell { background: #fff; border: 1px solid #D9D8D0; border-radius: 12px; color: #5A6668; }
+.ten-form-sub input { background: #1C414C; border-radius: 999px; border: none; }
+.ten-form-policy, .ten-slogan, .ten-slogan .company-name, .ten-slogan .ten-address, .ten-form-slogan { color: #374346; }
+.ten-link-text { color: #374346 !important; }
+.ten .ten-form-policy .red { -webkit-text-fill-color: #1C414C; }
+.footer { background: #fff; }
+.footer .menu-link { color: #374346 !important; }
+.footer-bottom { border-top: 1px solid #E6E4DD; }
+.footer-bottom-link { color: #5E6B6E !important; }
+.f-modal-content-close { background: #55949E; }
+@media (max-width: 1220px) { h1.title { font-size: 52px; } }
+@media (max-width: 768px) {
+  h1.title { font-size: 38px; }
+  .two-inner { border: 1px solid #E6E4DD; }
+  .two-row { border-color: #E6E4DD; }
+}
