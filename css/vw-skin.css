@@ -20,7 +20,6 @@ body {
 h1.title { font-size: 64px; }
 .slogan { color: #46586E; }
 
-/* Акцент вместо красного градиента */
 .red {
     background: linear-gradient(90deg, #001E50, #00B5E8);
     -webkit-background-clip: text;
@@ -158,8 +157,10 @@ h1.title { font-size: 64px; }
 /* светящаяся линия под шапкой — тусклее */
 .header::after { opacity: .45; }
 
-/* акцент в заголовке — сплошной цвет вместо градиента */
-.red { background: #6FA8C9; }
+.red {
+    background: none;
+    -webkit-text-fill-color: #6FA8C9;
+}
 
 /* кнопки отправки — сплошной тёмный вместо градиента */
 .ten-form-sub input { background: #274B66; }
