@@ -1,18 +1,18 @@
 <svg width="187" height="40" viewBox="0 0 187 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <g id="vw-emblem" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="19" cy="20" r="17.8"/>
-      <path d="M12.3 5.7 L19 24.6 L25.7 5.7"/>
-      <path d="M4.2 14.6 L13.6 34.9 L19 24.6 L24.4 34.9 L33.8 14.6"/>
+      <circle cx="20" cy="20" r="17.2"/>
+      <path d="M13.6 6.2 L20 24.8 L26.4 6.2"/>
+      <path d="M5.7 14.8 L14.8 34.3 L20 24.8 L25.2 34.3 L34.3 14.8"/>
     </g>
     <filter id="halo" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2"/>
+      <feGaussianBlur stdDeviation="1.4"/>
     </filter>
   </defs>
 
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#D64541" stroke-width="4.8" filter="url(#halo)"/>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#D64541" stroke-width="3.6"/>
-  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#F2A19B" stroke-width="1.2" opacity="0.9"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#D64541" stroke-width="5.2" filter="url(#halo)"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#D64541" stroke-width="4.2"/>
+  <use href="#vw-emblem" xlink:href="#vw-emblem" stroke="#F2A19B" stroke-width="1.4" opacity="0.9"/>
 
   <text x="48" y="38" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="50" fill="#FFFFFF" letter-spacing="-4">ID</text>
   <text x="95" y="12" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="9" fill="#FFFFFF" textLength="80" lengthAdjust="spacingAndGlyphs">PROGRAMMING</text>
