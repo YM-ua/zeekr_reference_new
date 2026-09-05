@@ -1,0 +1,71 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F4F4F0"/>
+  <defs>
+    <g id="p-diag" stroke="#C8392E" fill="none" stroke-linecap="round">
+      <path d="M -44,30 A 52,52 0 1 1 44,30" stroke-width="11"/>
+      <path d="M 0,-38 L 0,-50 M -27,-27 L -35,-35 M 27,-27 L 35,-35 M -38,0 L -50,0 M 38,0 L 50,0" stroke-width="9"/>
+      <path d="M 0,8 L 28,-26" stroke-width="11"/>
+      <circle cx="0" cy="8" r="9" fill="#C8392E" stroke="none"/>
+    </g>
+    <g id="p-car" stroke="#C8392E" fill="none" stroke-linecap="round">
+      <rect x="-52" y="-46" width="54" height="92" rx="12" stroke-width="10"/>
+      <circle cx="-25" cy="30" r="5.5" fill="#C8392E" stroke="none"/>
+      <path d="M 16,-36 A 10,10 0 0 0 6,-46" stroke-width="9"/>
+      <path d="M 26,-36 A 20,20 0 0 0 6,-56" stroke-width="9"/>
+      <path d="M 36,-36 A 30,30 0 0 0 6,-66" stroke-width="9"/>
+    </g>
+    <g id="p-gear" fill="#C8392E">
+      <rect x="-11" y="-50" width="22" height="18" rx="5"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(45)"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(90)"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(135)"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(180)"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(225)"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(270)"/>
+      <rect x="-11" y="-50" width="22" height="18" rx="5" transform="rotate(315)"/>
+      <circle r="32"/>
+      <circle r="15" fill="#F4F4F0"/>
+    </g>
+    <g id="p-upd" stroke="#C8392E" fill="none" stroke-linecap="round" stroke-width="13">
+      <path d="M -40,-10 A 41,41 0 0 1 32,-25"/>
+      <path d="M 40,10 A 41,41 0 0 1 -32,25"/>
+      <path d="M 30,-44 L 52,-16 L 18,-12 Z" fill="#C8392E" stroke="none"/>
+      <path d="M -30,44 L -52,16 L -18,12 Z" fill="#C8392E" stroke="none"/>
+    </g>
+    <g id="p-lang" stroke="#C8392E" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="-46" y="-48" width="92" height="72" rx="16" stroke-width="10"/>
+      <path d="M -14,24 L -22,46 L 6,24" stroke-width="10"/>
+      <text x="0" y="2" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="46" fill="#C8392E" stroke="none" text-anchor="middle">A</text>
+    </g>
+  </defs>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" letter-spacing="1" fill="#143352" text-anchor="middle">
+    <g transform="translate(140,170)">
+      <rect x="-100" y="-100" width="200" height="200" rx="26" fill="none" stroke="#143352" stroke-width="9"/>
+      <use href="#p-diag" transform="translate(0,-22)"/>
+      <text y="68">DIAGNOSTICS</text>
+    </g>
+    <g transform="translate(400,170)">
+      <rect x="-100" y="-100" width="200" height="200" rx="26" fill="none" stroke="#143352" stroke-width="9"/>
+      <use href="#p-car" transform="translate(0,-22)"/>
+      <text y="68">CARPLAY</text>
+    </g>
+    <g transform="translate(660,170)">
+      <rect x="-100" y="-100" width="200" height="200" rx="26" fill="none" stroke="#143352" stroke-width="9"/>
+      <use href="#p-gear" transform="translate(0,-22)"/>
+      <text y="68">CODING</text>
+    </g>
+    <g transform="translate(270,430)">
+      <rect x="-100" y="-100" width="200" height="200" rx="26" fill="none" stroke="#143352" stroke-width="9"/>
+      <use href="#p-upd" transform="translate(0,-30)"/>
+      <text y="52">SOFTWARE</text>
+      <text y="78">UPDATE</text>
+    </g>
+    <g transform="translate(530,430)">
+      <rect x="-100" y="-100" width="200" height="200" rx="26" fill="none" stroke="#143352" stroke-width="9"/>
+      <use href="#p-lang" transform="translate(0,-30)"/>
+      <text y="52">INTERFACE</text>
+      <text y="78">TRANSLATION</text>
+    </g>
+  </g>
+</svg>
