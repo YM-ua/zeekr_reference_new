@@ -92,3 +92,24 @@ h1.title { font-size: 64px; }
     height: 48px;
     object-fit: contain;
 }
+/* Убираем левую границу у первого блока в каждом ряду */
+.two-row .col-md-4:nth-child(3n+1) .two-inner {
+    border-left: none !important;
+}
+
+/* Добавляем правую границу всем, кроме последнего в ряду */
+.two-inner {
+    border-right: 1px solid #DDDDDD;
+}
+
+.two-row .col-md-4:nth-child(3n) .two-inner {
+    border-right: none !important;
+}
+
+/* На мобильных убираем все границы, оставляем только внешние */
+@media screen and (max-width: 768px) {
+    .two-inner {
+        border-left: none !important;
+        border-right: none !important;
+    }
+}
