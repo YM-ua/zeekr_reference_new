@@ -82,3 +82,13 @@ h1.title { font-size: 64px; }
 /* выделение последнего пакета */
 .highlight { border: 2px solid #D64541; }
 .highlight::before { background: #D64541; }
+.two-inner-header-icon {
+    background: transparent !important;
+    padding: 0;
+}
+
+.two-inner-header-icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
