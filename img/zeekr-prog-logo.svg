@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="231.020" height="38.000"
+     viewBox="0 0 231.020 38.000"
+     role="img" aria-label="ZEEKR PROGRAMMING logo">
+
+  <!-- Icon: square frame -->
+  <rect x="2" y="2" width="34" height="34"
+        fill="none" stroke="white" stroke-width="1.8"/>
+
+  <!-- Z-inspired symbol (5 rectangles forming a block-S/Z shape) -->
+  <rect x="9"  y="8"    width="18" height="3.5" fill="white"/>
+  <rect x="21" y="11.5" width="6"  height="5.5" fill="white"/>
+  <rect x="9"  y="17"   width="18" height="3.5" fill="white"/>
+  <rect x="9"  y="20.5" width="6"  height="5.5" fill="white"/>
+  <rect x="9"  y="26"   width="18" height="3.5" fill="white"/>
+
+  <!-- ZEEKR — top-aligned, occupies ~80% of height -->
+  <text x="42" y="19"
+        font-family="'Arial', 'Helvetica Neue', sans-serif"
+        font-weight="700"
+        font-size="23"
+        letter-spacing="14"
+        fill="white">ZEEKR</text>
+
+  <!-- PROGRAMMING — bottom 20%, technical monospace -->
+  <text x="42" y="35.5"
+        font-family="'Courier New', 'Liberation Mono', monospace"
+        font-size="6"
+        letter-spacing="10"
+        fill="white">PROGRAMMING</text>
+
+</svg>
