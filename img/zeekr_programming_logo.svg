@@ -1,0 +1,17 @@
+<svg width="187" height="38" viewBox="0 0 187 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Эмблема ZEEKR -->
+  <path d="M0 0H38V38H0V0ZM34.2 3.8H3.8V34.2H34.2V3.8Z" fill="white"/>
+  <path d="M16.5 34.2V19.5L21.5 14.5V3.8H25.3V16.5L20.3 21.5V34.2H16.5Z" fill="white"/>
+  
+  <!-- ZEEKR (Верхняя часть) -->
+  <g transform="translate(48, 0)">
+    <path d="M0 0H20.5V3.2L5.8 21.5H20.5V24.7H0V21.5L14.7 3.2H0V0Z" fill="white"/> <!-- Z -->
+    <path d="M26.5 0H45.5V3.2H30.3V10.8H44V14H30.3V21.5H45.5V24.7H26.5V0Z" fill="white"/> <!-- E -->
+    <path d="M51.5 0H70.5V3.2H55.3V10.8H69V14H55.3V21.5H70.5V24.7H51.5V0Z" fill="white"/> <!-- E -->
+    <path d="M76.5 0H80.3V10.8L91.5 0H96.5L84.5 11.5L97.5 24.7H92.2L80.3 12.8V24.7H76.5V0Z" fill="white"/> <!-- K -->
+    <path d="M103 0H117C121 0 123.5 2.5 123.5 6.5C123.5 10 121.5 12 118.5 12.5L124.5 24.7H120.2L114.5 13H106.8V24.7H103V0ZM106.8 3.2V9.8H116.5C118.5 9.8 119.7 8.8 119.7 6.5C119.7 4.2 118.5 3.2 116.5 3.2H106.8Z" fill="white"/> <!-- R -->
+  </g>
+
+  <!-- PROGRAMMING (Нижняя часть) -->
+  <text x="48" y="36" font-family="Arial, sans-serif" font-weight="900" font-size="9" fill="white" textLength="124.5" lengthAdjust="spacingAndGlyphs" style="letter-spacing: 0.5px;">PROGRAMMING</text>
+</svg>
